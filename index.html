@@ -30,48 +30,49 @@
             <label for="role">Ruolo:</label>
             <select id="role">
                 <option value="">Seleziona ruolo</option>
-                <option value="Accettatore d’officina">CCS</option>
-                <option value="Tecnico d’officina">Capo officina</option>
-                <option value="Tecnico d’officina">Specialista garanzie</option>
+                <option value="CCS">CCS</option>
+                <option value="Capo Officina">Capo officina</option>
+                <option value="Specialista Garanzie">Specialista garanzie</option>
             </select>
 
             <button id="generate" disabled>Genera Badge</button>
         </div>
 
-            <div class="badge">
-                <div class="badge-header">
-                    <span>Officina<br> OCRA</span>
-                    <span id="badge-location">Sede officina</span>
-                    <img src="/assets/logo-citroen.png" alt="Logo Citroen">
-                </div>
-                <div class="badge-name" id="badge-name">Nome</div>
-                <div class="badge-surname" id="badge-surname">Cognome</div>
-                <div class="badge-role" id="badge-role">Ruolo in officina</div>
+        <div class="badge">
+            <div class="badge-header">
+                <span>Officina<br> OCRA</span>
+                <span id="badge-location">Sede officina</span>
+                <img src="/assets/logo-citroen.png" alt="Logo Citroen">
             </div>
+            <div class="badge-name" id="badge-name">Nome</div>
+            <div class="badge-surname" id="badge-surname">Cognome</div>
+            <div class="badge-role" id="badge-role">Ruolo in officina</div>
+        </div>
 
-            <div class="badge" id="badge-export"
-                style="width:321.26px; height:204.09px; transform: scale(1); position:absolute; top:-9999px; left:-9999px;">
-                <div class="badge-header">
-                    <span>Officina<br>OCRA</span>
-                    <span id="export-location">Jesi</span>
-                    <img src="assets/logo-citroen.png" alt="Logo Citroen">
-                </div>
-                <div class="badge-name" id="export-name">Nome</div>
-                <div class="badge-surname" id="export-surname">Cognome</div>
-                <div class="badge-role" id="export-role">Ruolo in officina</div>
+        <div class="badge" id="badge-export"
+            style="width:321.26px; height:204.09px; transform: scale(1); position:absolute; top:-9999px; left:-9999px;">
+            <div class="badge-header">
+                <span>Officina<br>OCRA</span>
+                <span id="export-location">Jesi</span>
+                <img src="assets/logo-citroen.png" alt="Logo Citroen">
             </div>
+            <div class="badge-name" id="export-name">Nome</div>
+            <div class="badge-surname" id="export-surname">Cognome</div>
+            <div class="badge-role" id="export-role">Ruolo in officina</div>
+        </div>
 
 
-            <div class="actions">
-                <button id="save-pdf" disabled>Salva in PDF</button>
-                <!--<button id="save-png">Salva come immagine (PNG)</button>-->
-            </div>
+        <div class="actions">
+            <button id="save-pdf" disabled>Salva in PDF</button>
+            <!--<button id="save-png">Salva come immagine (PNG)</button>-->
+        </div>
     </div>
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-<script src="script.js"></script></body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
 
 </html>
